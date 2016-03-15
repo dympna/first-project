@@ -1,0 +1,2 @@
+
+UPDATE `poibbank1`.`loans` SET `cust_id` = '16', `dopened` = '2013-09-10', `updated` = '2015-12-01', `loan2Opened` = '2014-02-12', `loan2Update` = '3-Dec-2015' WHERE `loans`.`loanAccType` = 'mortgage';

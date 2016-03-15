@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<style>
+</style>
+<head>
+	<meta charset="utf-8"/>
+	<title>trialtable</title>
+	<link rel="Stylesheet" type="text/css" href="PBOI2.css">
+	
+</head>
+<body>
+	<header>
+	<h1>Professional Bank of Ireland</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="bankhome2.html">Home</a>
+			<li><a href="PBOIpage2.html">Customers</a></li>
+			<li><a href="PBOIpage3.html">Loans</a></li>
+			<li><a href="PBOIpage4.html">Accounts</a></li>
+			<li><a href="PBOIpage5.html">Personnel</a></li>
+		</ul>
+	</nav>
+	
+	<section>
+	Insert information on Customers by filling out the form below. Please complete all fields.
+	Click the submit button and return to main menu navigation bar.
+	
+	</section>
+
+
+	<section>
+<blockquote>
+<table align=center border=1 cellpadding=3 width=50%>
+		
+		<form action="mycustINSERT.php" method="POST">
+		
+			<div class="field">
+				<tr><th><label for="lName">Last Name:</label>
+				<td><input type="text" name="lName" id="lName"/></td>
+				<td>e.g. Murphy</td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="fname">First Name:</label>
+				<td><input type="text" name="fname" id="fname"/></td>
+				<td>e.g Tom</td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="addressL1">Address:</label>
+				<td><input type="text" name="addressL1" id="addressL1"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="area">Area:</label>
+				<td><input type="text" name="area" id="area"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="town">Town:</label>
+				<td><input type="text" name="town" id="town"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="town">County:</label>
+				<td><input type="text" name="county" id="county"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="town">BranchID:</label>
+				<td><input type="text" name="branch_id" id="branch_id"/></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="phone">Tel:</label>
+				<td><input type="tel" name="phone" id="phone"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="email">Email:</label>
+				<td><input type="text" name="email" id="email"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="custStatus">Customer Status:</label>
+				<td><input type="text" name="custStatus" id="custStatus"/></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="sdate">Status Date:</label>
+				<td><input type="date" name="sdate" id="sdate"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="job">Job:</label>
+				<td><input type="text" name="job" id="job"/></td>
+				<td></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="companyName">Company Name:</label>
+				<td><input type="text" name="companyName" id="companyName"/></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="maritalStatus">Marital Status:</label>
+				<td><input type="text" name="maritalStatus" id="maritalStatus"/></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="loanAccType">Loan Acc Type:</label>
+				<td><input type="text" name="loanAccType" id="loanAccType"/></td></tr>
+			</div>
+			<div class="field">
+				<tr><th><label for="currAccType">Curr Acc Type:</label>
+				<td><input type="text" name="currAccType" id="currAccType"/></td></tr>
+			</div>
+			
+			
+			<tr><td colspan=100%><input type="submit" value="Insert Record"></td><tr>
+		</form>
+</table>
+</blockquote>
+</section>
+
+<br />
+
+	<footer>
+		Webmaster DMCN 2015
+	</footer>
+</body>
+</html>

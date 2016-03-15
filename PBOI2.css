@@ -1,0 +1,55 @@
+body {background-color:green;
+      font-family:Tahoma;}
+h1   {color:aqua}
+p    {color:green}
+
+ul {
+    list-style-type: none;
+    margin: 30;
+	padding:30;
+	
+	background-color:yellow;
+	height:35px;
+}
+
+li {
+    display: inline-block;
+	color:white;
+	text-align:center;
+	padding: 14px 16px;
+	width:120px;
+	height:25px
+}
+li a:hover:not(.active) {
+	background-color:red;
+}
+.active {
+	background-color:red;
+}	
+
+footer {
+	border:2px solid gray;
+	background-color:gray;
+	text-align:center;
+	height:30px;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	float: left;
+}
+
+
+
+<div style="width:150px;
+height:150px;
+line-height:3em;
+overflow:scroll;
+padding:5px;">
+This 'div' element uses 'overflow:scroll' to create scrollbars. 
+<div>
+
+}
+
+
+
+
